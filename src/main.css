@@ -1,0 +1,225 @@
+@font-face{
+    font-family: trajan;
+    src: url('./fonts/TrajanPro-Bold.otf');
+}
+
+.blue{
+    color: rgb(35, 193, 255);
+}
+
+.pad1{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.body{
+    display: flex;
+    align-items: center;
+    background-color: rgb(65, 65, 65);
+    flex-direction: column;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.title{
+    font-family: trajan;
+    font-weight: bold;
+    font-size: 450%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.left{
+    width: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-start;
+    flex-direction: column;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.right{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px  solid rgb(35, 193, 255);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+
+}
+
+.trajan{
+    font-family: trajan;
+}
+
+.fs25{
+    font-size: 25px;
+}
+
+.fs25:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.fs15{
+    font-size: 15px;
+}
+
+.s40{
+    font-size: 40px;
+}
+
+.s40:hover{
+    cursor: pointer;
+    color: white;
+}
+
+ul{
+    padding-left: 15%;
+}
+li{
+    margin-top: 5%;
+}
+
+.hero-wrapper{
+    width: 90%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+.heroes-name{
+    font-family: trajan;
+    word-wrap: break-word;
+    font-size: 25px;
+    color:rgb(35, 193, 255) ;
+}
+
+.below-left{
+    border: 1px solid rgb(30, 255, 0);
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    flex-direction: column;
+}
+
+.top2{
+    padding-top: 2%;
+}
+
+.yellow{
+    color: rgba(246, 201, 0, 0.87);
+}
+.team-list{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    width: 15%;
+    height: 15%;
+}
+
+.btn{
+    padding-top: 6%;
+    padding-bottom: 4.5%;
+    padding-left: 6%;
+    padding-right: 6%;
+    background-color: coral;
+    font-family: trajan;
+    border: none;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    border-radius: 1%;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.fave:hover{
+    cursor: pointer;
+    color:whitesmoke;
+}
+
+.favourite-holder{
+    overflow-y: auto;
+    overflow-x: auto;
+    width: 74em;
+    height: 400px;
+    border: 1px solid rgb(35, 193, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    /* flex-wrap: wrap; */
+}
+
+.fave-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+.fave-contain{
+    width: 450px;
+    margin-top: 3%;
+    margin-left: 10%;
+}
+
+.kiri{
+    display: flex;
+    flex-direction: row;
+}
+
+.uyu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+    
+}
+
+.columnz{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.columnzz{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    
+}
+table{
+    width: 350px;
+    font-family: trajan;
+    color: white;
+    font-size: 13px;
+}
+td{
+   
+    padding: 8px;
+    border-bottom: 1px solid white;
+}
+tr{
+    width: 200px;
+}

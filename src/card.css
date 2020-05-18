@@ -1,0 +1,160 @@
+
+.card-body-int{
+    border: 1.5px  solid  rgb(35, 193, 255);
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 1%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+    height: 85%;
+}
+
+.card-body-int:hover{
+    background-color: rgba(87, 132, 255, 0.15);
+   
+}
+
+.card-body-str{
+    border: 1.5px  solid  rgb(35, 193, 255);
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 1%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+    height: 85%;
+}
+
+.card-body-str:hover{
+    background-color: rgba(255, 53, 53,0.15);
+    
+}
+
+.card-body-agi{
+    border: 1.5px  solid  rgb(35, 193, 255);
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 1%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+    height: 85%;
+}
+
+.card-body-agi:hover{
+    background-color:  rgba(149, 255, 164, 0.15);
+    
+}
+
+
+
+
+
+.card-stats{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+
+
+.Carry{
+    font-family: trajan;
+    color: rgb(251, 255, 0);
+
+}
+
+.Support{
+    font-family: trajan;
+    color: rgb(0, 132, 255);
+
+}
+
+
+.Nuker{
+    font-family: trajan;
+    color: rgb(255, 136, 0);
+
+}
+.Disabler{
+    font-family: trajan;
+    color: rgb(255, 255, 255);
+
+}
+.Jungler{
+    font-family: trajan;
+    color: rgb(255, 0, 242);
+
+}
+.Durable{
+    font-family: trajan;
+    color: rgb(127, 104, 255);
+
+}
+.Escape{
+    font-family: trajan;
+    color: rgb(152, 135, 250);
+
+}
+.Pusher{
+    font-family: trajan;
+    color: rgb(173, 57, 167);
+}
+.Initiator{
+    font-family: trajan;
+    color: rgb(9, 255, 0);
+}
+
+
+
+
+.Carry,.Support,.Nuker,.Disabler,.Jungler,.Durable,.Escape,.Pusher,.Initiator{
+    margin-right: 4%;
+    margin-left: 4%;
+    margin-top:2%;
+    margin-bottom: 2%;
+    
+}
+
+.Carry,.Support,.Nuker,.Disabler,.Jungler,.Durable,.Escape,.Pusher,.Initiator:hover{
+    cursor: pointer;
+}
+
+.agi{
+    color: rgb(31, 255, 31);
+}
+.str{
+    color: rgb(255, 166, 0);
+}
+.int{
+    color:rgb(0, 204, 255)
+}
+
+.cross{
+    color: red;
+    font-size: 25px;
+}
+
+.cross:hover{
+    color: rgb(50, 231, 255);
+    cursor: pointer;
+}
+
+.heroes-name:hover{
+    cursor: pointer;
+    color: white;
+}
